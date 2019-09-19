@@ -1,6 +1,6 @@
 # TIC-80 Bunnymark
 
-Bunnymark in all the different languages available in [TIC-80](https://tic.compouter).
+Bunnymark in some of the different languages available in [TIC-80](https://tic.compouter).
 
 - JavaScript
 - MoonScript
