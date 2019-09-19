@@ -3,3 +3,6 @@ js:
 
 moon:
 	tic80 dist/bunnymark-moon.tic -code src/bunnymark.moon -sprites sprites.gif
+
+wren:
+	tic80 dist/bunnymark-wren.tic -code src/bunnymark.wren -sprites sprites.gif
