@@ -6,6 +6,8 @@ Bunnymark in all the different languages available in [TIC-80](https://tic.compo
 - MoonScript
 - Wren
 
+![Screen capture](screen.gif)
+
 ## Usage
 
 ```
