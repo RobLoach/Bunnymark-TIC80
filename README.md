@@ -5,6 +5,7 @@ Bunnymark in some of the different languages available in [TIC-80](https://tic.c
 - JavaScript
 - MoonScript
 - Wren
+- Squirrel
 
 ![Screen capture](screen.gif)
 
@@ -14,4 +15,5 @@ Bunnymark in some of the different languages available in [TIC-80](https://tic.c
 tic80 dist/bunnymark-js.tic -code src/bunnymark.js -sprites sprites.gif
 tic80 dist/bunnymark-moon.tic -code src/bunnymark.moon -sprites sprites.gif
 tic80 dist/bunnymark-wren.tic -code src/bunnymark.wren -sprites sprites.gif
+tic80 dist/bunnymark-squirrel.tic -code src/bunnymark.nut -sprites sprites.gif
 ```
