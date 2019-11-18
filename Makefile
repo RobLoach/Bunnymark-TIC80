@@ -9,3 +9,5 @@ wren:
 
 squirrel:
 	tic80 dist/bunnymark-squirrel.tic -code src/bunnymark.nut -sprites sprites.gif
+
+all: js moon wren squirrel

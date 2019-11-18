@@ -1,3 +1,7 @@
+// title: Bunnymark in Squirrel
+// author: Rob Loach
+// desc: Benchmarking tool to see how many bunnies can fly around the screen, using Squirrel.
+// input: gamepad
 // script: squirrel
 
 local ScreenWidth = 240;
