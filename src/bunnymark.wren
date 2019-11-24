@@ -87,7 +87,9 @@ class Game is TIC {
 			}
 		} else if (TIC.btn(1)) {
 			for (i in 1...5) {
-				_bunnies.removeAt(0)
+				if (_bunnies.count > 0) {
+					_bunnies.removeAt(0)
+				}
 			}
 		}
 
