@@ -3,10 +3,10 @@
 Bunnymark in some of the different languages available in [TIC-80](https://tic.compouter).
 
 - [JavaScript](https://tic.computer/play?cart=990)
-- [MoonScript](https://tic.computer/play?cart=989)
+- [MoonScript](https://tic.computer/play?cart=989)/Lua
 - [Wren](https://tic.computer/play?cart=988)
 - [Squirrel](https://tic.computer/play?cart=987)
-- Submit Fennel and Lua ports!
+- Submit Fennel and native Lua ports!
 
 ![Screen capture](screen.gif)
 
