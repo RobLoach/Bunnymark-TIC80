@@ -18,3 +18,8 @@ tic80 dist/bunnymark-moon.tic -code src/bunnymark.moon -sprites sprites.gif
 tic80 dist/bunnymark-wren.tic -code src/bunnymark.wren -sprites sprites.gif
 tic80 dist/bunnymark-squirrel.tic -code src/bunnymark.nut -sprites sprites.gif
 ```
+
+## Credits
+
+- Rob Loach
+- Music from [Micro Mages - Title Screen](https://tic80.com/play?cart=616), by [Morphcat Games](http://morphcat.de/) and [Fubuki](https://tic80.com/user?id=219)

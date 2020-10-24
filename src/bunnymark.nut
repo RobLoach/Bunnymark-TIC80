@@ -8,6 +8,7 @@
 local ScreenWidth = 240;
 local ScreenHeight = 136;
 local ToolbarHeight = 6;
+local t = 0;
 
 function rndfloat(max) {
     local roll = 1.0 * max * rand() / RAND_MAX;
@@ -85,6 +86,15 @@ local fps = FPS();
 local bunnies = [Bunny()];
 
 function TIC() {
+  // Music
+	if (t==0) {
+	  music(0)
+	}
+	if (t == 6*64*2.375) {
+	  music(1)
+	}
+	t++
+
 	// Input
 	if (btn(0)) {
 		for (local i = 0; i < 5; i += 1) {

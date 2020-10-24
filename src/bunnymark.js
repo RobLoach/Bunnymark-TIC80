@@ -8,6 +8,7 @@
 const screenWidth = 240
 const screenHeight = 136
 const toolbarHeight = 6
+var t = 0
 
 function GetRandomValue(min, max) {
   return Math.random() * (max - min) + min
@@ -73,6 +74,15 @@ const bunnies = []
 bunnies.push(new Bunny())
 
 function TIC() {
+  // Music
+	if (t==0) {
+	  music(0)
+	}
+	if (t == 6*64*2.375) {
+	  music(1)
+	}
+	t++
+
 	// Input
 	if (btn(0)) {
 		for (var i = 0; i < 5; i++) {

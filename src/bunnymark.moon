@@ -8,6 +8,7 @@
 screenWidth = 240
 screenHeight = 136
 toolbarHeight = 6
+t =  0
 
 class Bunny
 	@width: 26
@@ -60,6 +61,13 @@ bunnies = {}
 table.insert(bunnies, Bunny!)
 
 export TIC=->
+  -- music
+	if t == 0 then
+	  music(0)
+	if t == 6*64*2.375 then
+	  music(1)
+	t = t + 1
+
 	-- Input
 	if btn(0)
 		for i = 1, 5

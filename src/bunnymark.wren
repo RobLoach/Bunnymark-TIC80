@@ -78,9 +78,19 @@ class Game is TIC {
 		_fps = FPS.new()
 		_random = Random.new()
 		_bunnies = [Bunny.new(_random)]
+		_t = 0
 	}
 
 	TIC() {
+	  // Music
+		if (_t == 0) {
+		  TIC.music(0)
+		}
+		if (_t == 6*64*2.375) {
+		  TIC.music(1)
+		}
+		_t = _t + 1
+
 		// Input
 		if (TIC.btn(0)) {
 			for (i in 1...5) {
