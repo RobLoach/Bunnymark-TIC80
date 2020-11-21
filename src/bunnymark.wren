@@ -3,7 +3,7 @@
 // desc: Benchmarking tool to see how many bunnies can fly around the screen, using Wren.
 // input: gamepad
 // script: wren
-// version: 1.0.1
+// version: 1.1.0
 
 import "random" for Random
 

@@ -3,7 +3,7 @@
 // desc: Benchmarking tool to see how many bunnies can fly around the screen, using JavaScript.
 // input: gamepad
 // script: js
-// version: 1.0.1
+// version: 1.1.0
 
 const screenWidth = 240
 const screenHeight = 136

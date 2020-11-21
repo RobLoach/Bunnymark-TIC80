@@ -11,3 +11,6 @@ wren:
 
 squirrel:
 	tic80 dist/bunnymark-squirrel.tic -code src/bunnymark.nut -sprites sprites.gif
+
+lua:
+	tic80 dist/bunnymark-lua.tic -code src/bunnymark.lua -sprites sprites.gif
