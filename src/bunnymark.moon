@@ -3,7 +3,7 @@
 -- desc: Benchmarking tool to see how many bunnies can fly around the screen, using MoonScript.
 -- input: gamepad
 -- script: moon
--- version: 1.1.0
+-- version: 1.2.0
 
 screenWidth = 240
 screenHeight = 136
