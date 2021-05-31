@@ -1,16 +1,24 @@
-all: js moon wren squirrel
+TIC80 = tic80
 
-js:
-	tic80 dist/bunnymark-js.tic -code src/bunnymark.js -sprites sprites.gif
+BASE = bunnymark.tic
 
-moon:
-	tic80 dist/bunnymark-moon.tic -code src/bunnymark.moon -sprites sprites.gif
+VPATH = src
+OUTPUT_DIR = dist
 
-wren:
-	tic80 dist/bunnymark-wren.tic -code src/bunnymark.wren -sprites sprites.gif
+SOURCES := $(wildcard src/bunnymark.*)
 
-squirrel:
-	tic80 dist/bunnymark-squirrel.tic -code src/bunnymark.nut -sprites sprites.gif
+OUTPUTS := $(addprefix $(OUTPUT_DIR)/,$(SOURCES:src/bunnymark.%=bunnymark-%.tic))
 
-lua:
-	tic80 dist/bunnymark-lua.tic -code src/bunnymark.lua -sprites sprites.gif
+.PHONY: clean run all
+
+all: $(OUTPUTS)
+
+run: $(OUTPUTS)
+	for o in $^; do $(TIC80) --skip $$o; done
+
+clean:
+	rm $(OUTPUT_DIR)/*
+
+# main rule
+$(OUTPUT_DIR)/bunnymark-%.tic: bunnymark.%
+	$(TIC80) --skip --fs . --cmd "load $(BASE) & import code $< & save $@ & exit"
