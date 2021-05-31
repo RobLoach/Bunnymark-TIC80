@@ -13,6 +13,9 @@ OUTPUTS := $(addprefix $(OUTPUT_DIR)/,$(SOURCES:src/bunnymark.%=bunnymark-%.tic)
 
 all: $(OUTPUTS)
 
+$(OUTPUT_DIR):
+	mkdir -p $(OUTPUT_DIR)
+
 run: $(OUTPUTS)
 	for o in $^; do $(TIC80) --skip $$o; done
 
@@ -20,5 +23,5 @@ clean:
 	rm $(OUTPUT_DIR)/*
 
 # main rule
-$(OUTPUT_DIR)/bunnymark-%.tic: bunnymark.%
+$(OUTPUT_DIR)/bunnymark-%.tic: $(OUTPUT_DIR) bunnymark.%
 	$(TIC80) --skip --fs . --cmd "load $(BASE) & import code $< & save $@ & exit"
