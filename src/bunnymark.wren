@@ -1,9 +1,9 @@
 // title: Bunnymark in Wren
-// author: Rob Loach
+// author: @RobLoach
 // desc: Benchmarking tool to see how many bunnies can fly around the screen, using Wren.
 // input: gamepad
 // script: wren
-// version: 1.1.0
+// version: 1.2.0
 
 import "random" for Random
 

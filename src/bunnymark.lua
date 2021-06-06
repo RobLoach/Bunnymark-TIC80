@@ -1,9 +1,9 @@
 -- title: Bunnymark in Lua
--- author: Rabia Alhaffar
+-- author: @RobLoach and Rabia Alhaffar
 -- desc: Benchmarking tool to see how many bunnies can fly around the screen, using Lua.
 -- input: gamepad
 -- script: lua
--- version: 1.1.0
+-- version: 1.2.0
 
 screenWidth = 240
 screenHeight = 136

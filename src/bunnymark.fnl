@@ -1,9 +1,9 @@
 ;; title:  Bunnymark in Fennel
-;; author: Graham Scheaffer
+;; author: @RobLoach and Graham Scheaffer
 ;; desc:   Benchmarking tool to see how many bunnies can fly around the screen, using Fennel.
 ;; input: gamepad
 ;; script: fennel
-;; version: 1.0.0
+;; version: 1.2.0
 
 (local screen-width 240)
 (local screen-height 136)
