@@ -1,5 +1,5 @@
 -- title: Bunnymark in MoonScript
--- author: Rob Loach
+-- author: @RobLoach
 -- desc: Benchmarking tool to see how many bunnies can fly around the screen, using MoonScript.
 -- input: gamepad
 -- script: moon
