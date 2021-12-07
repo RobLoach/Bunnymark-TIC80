@@ -1,11 +1,13 @@
 # TIC-80 Bunnymark
 
-Bunnymark in some of the different languages available in [TIC-80](https://tic.compouter).
+Bunnymark in some of the different languages available in [TIC-80](https://tic80.com).
 
-- [JavaScript](https://tic.computer/play?cart=990)
-- [MoonScript](https://tic.computer/play?cart=989)/Lua
-- [Wren](https://tic.computer/play?cart=987)
-- [Squirrel](https://tic.computer/play?cart=988)
+- [JavaScript](https://tic80.com/play?cart=990)
+- [MoonScript](https://tic80.com/play?cart=989)
+- [Wren](https://tic80.com/play?cart=987)
+- [Squirrel](https://tic80.com/play?cart=988)
+- [Fennel](https://tic80.com/play?cart=865)
+- [Lua](https://tic80.com/play?cart=2424)
 
 ![Screen capture](screen.gif)
 

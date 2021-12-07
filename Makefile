@@ -24,4 +24,5 @@ clean:
 
 # main rule
 $(OUTPUT_DIR)/bunnymark-%.tic: $(OUTPUT_DIR) bunnymark.%
-	$(TIC80) --skip --fs . --cmd "load $(BASE) & import code $< & save $@ & exit"
+	rm -f $@
+	$(TIC80) --skip --fs . --cmd "load $(BASE) & import code $(word 2, $+) & save $@ & exit"
